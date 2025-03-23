@@ -17,7 +17,10 @@ const productSchema = new mongoose.Schema({
     price : {
         type : Number,
         required : true
+
     },
+
+    //commernt
     labeledPrice : {
         type : Number,
         required : true
